@@ -1,0 +1,5 @@
+# Ignore all:
+
+# Except:
+!.gitignore
+# The rest of previously existing files

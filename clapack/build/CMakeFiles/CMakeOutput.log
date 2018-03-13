@@ -1,0 +1,196 @@
+The target system is: Android - 1 - aarch64
+The host system is: Linux - 4.4.0-112-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc 
+Build flags: -isystem;/home/pico/Android/Sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android;-D__ANDROID_API__=24;-g;-DANDROID;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-Wa,--noexecstack;-Wno-error=format-security;
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "/home/pico/ORB_SLAM2_Android_0226/app/src/main/cpp/Thirdparty/clapack/build/CMakeFiles/3.11.0-rc3/CompilerIdC/CMakeCCompilerId.o"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/pico/ORB_SLAM2_Android_0226/app/src/main/cpp/Thirdparty/clapack/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3be67/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3be67.dir/build.make CMakeFiles/cmTC_3be67.dir/build
+make[1]: 正在进入目录 `/home/pico/ORB_SLAM2_Android_0226/app/src/main/cpp/Thirdparty/clapack/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3be67.dir/testCCompiler.c.o
+/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc --sysroot=/home/pico/Android/Sdk/ndk-bundle/sysroot   -isystem /home/pico/Android/Sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wno-error=format-security   -fPIE   -o CMakeFiles/cmTC_3be67.dir/testCCompiler.c.o   -c /home/pico/ORB_SLAM2_Android_0226/app/src/main/cpp/Thirdparty/clapack/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_3be67
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3be67.dir/link.txt --verbose=1
+/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc --sysroot=/home/pico/Android/Sdk/ndk-bundle/sysroot -isystem /home/pico/Android/Sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wno-error=format-security    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot /home/pico/Android/Sdk/ndk-bundle/platforms/android-24/arch-arm64 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fPIE   CMakeFiles/cmTC_3be67.dir/testCCompiler.c.o  -o cmTC_3be67 -latomic -lm 
+make[1]:正在离开目录 `/home/pico/ORB_SLAM2_Android_0226/app/src/main/cpp/Thirdparty/clapack/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/pico/ORB_SLAM2_Android_0226/app/src/main/cpp/Thirdparty/clapack/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4b13a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4b13a.dir/build.make CMakeFiles/cmTC_4b13a.dir/build
+make[1]: 正在进入目录 `/home/pico/ORB_SLAM2_Android_0226/app/src/main/cpp/Thirdparty/clapack/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4b13a.dir/CMakeCCompilerABI.c.o
+/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc --sysroot=/home/pico/Android/Sdk/ndk-bundle/sysroot   -isystem /home/pico/Android/Sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wno-error=format-security   -fPIE   -o CMakeFiles/cmTC_4b13a.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.11/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_4b13a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b13a.dir/link.txt --verbose=1
+/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc --sysroot=/home/pico/Android/Sdk/ndk-bundle/sysroot -isystem /home/pico/Android/Sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wno-error=format-security    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot /home/pico/Android/Sdk/ndk-bundle/platforms/android-24/arch-arm64 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fPIE  -v CMakeFiles/cmTC_4b13a.dir/CMakeCCompilerABI.c.o  -o cmTC_4b13a 
+Using built-in specs.
+COLLECT_GCC=/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc
+COLLECT_LTO_WRAPPER=/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/lto-wrapper
+Target: aarch64-linux-android
+Configured with: /usr/local/google/buildbot/src/android/gcc/toolchain/build/../gcc/gcc-4.9/configure --prefix=/tmp/ec4cb553ef61611c1d388a938c56382a --target=aarch64-linux-android --host=x86_64-linux-gnu --build=x86_64-linux-gnu --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --with-gmp=/buildbot/tmp/build/toolchain/temp-install --with-mpfr=/buildbot/tmp/build/toolchain/temp-install --with-mpc=/buildbot/tmp/build/toolchain/temp-install --with-cloog=/buildbot/tmp/build/toolchain/temp-install --with-isl=/buildbot/tmp/build/toolchain/temp-install --with-ppl=/buildbot/tmp/build/toolchain/temp-install --disable-ppl-version-check --disable-cloog-version-check --disable-isl-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --disable-libitm --enable-bionic-libs --enable-libatomic-ifuncs=no --enable-initfini-array --disable-nls --prefix=/tmp/ec4cb553ef61611c1d388a938c56382a --with-sysroot=/tmp/ec4cb553ef61611c1d388a938c56382a/sysroot --with-binutils-version=2.27 --with-mpfr-version=3.1.1 --with-mpc-version=1.0.1 --with-gmp-version=5.0.5 --with-gcc-version=4.9 --with-gdb-version=none --with-gxx-include-dir=/tmp/ec4cb553ef61611c1d388a938c56382a/include/c++/4.9.x --with-bugurl=http://source.android.com/source/report-bugs.html --enable-languages=c,c++ --disable-bootstrap --enable-plugins --enable-libgomp --enable-gnu-indirect-function --disable-libsanitizer --enable-gold --enable-ld=default --enable-threads --enable-eh-frame-hdr-for-static --enable-fix-cortex-a53-835769 --enable-graphite=yes --with-isl-version=0.11.1 --with-cloog-version=0.18.0 --program-transform-name='s&^&aarch64-linux-android-&' --enable-gold
+Thread model: posix
+gcc version 4.9.x 20150123 (prerelease) (GCC) 
+COMPILER_PATH=/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/:/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/:/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/
+LIBRARY_PATH=/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/:/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/:/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64/:/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/:/home/pico/Android/Sdk/ndk-bundle/platforms/android-24/arch-arm64/usr/lib/
+COLLECT_GCC_OPTIONS='-isystem' '/home/pico/Android/Sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android' '-D' '__ANDROID_API__=24' '-g' '-D' 'ANDROID' '-ffunction-sections' '-funwind-tables' '-fstack-protector-strong' '-Wno-error=format-security' '-pie' '-fPIE' '-v' '-o' 'cmTC_4b13a' '-mlittle-endian' '-mabi=lp64'
+ /home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/collect2 -plugin /home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/liblto_plugin.so -plugin-opt=/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMUs4rn.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=/home/pico/Android/Sdk/ndk-bundle/platforms/android-24/arch-arm64 --eh-frame-hdr -dynamic-linker /system/bin/linker64 -X -EL -maarch64linux --fix-cortex-a53-835769 --fix-cortex-a53-843419 -z noexecstack -z relro -z now -pie -o cmTC_4b13a /home/pico/Android/Sdk/ndk-bundle/platforms/android-24/arch-arm64/usr/lib/crtbegin_dynamic.o -L/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x -L/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc -L/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/home/pico/Android/Sdk/ndk-bundle/platforms/android-24/arch-arm64/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_4b13a.dir/CMakeCCompilerABI.c.o -lgcc -lc -ldl -lgcc /home/pico/Android/Sdk/ndk-bundle/platforms/android-24/arch-arm64/usr/lib/crtend_android.o
+make[1]:正在离开目录 `/home/pico/ORB_SLAM2_Android_0226/app/src/main/cpp/Thirdparty/clapack/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(aarch64-linux-android-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/pico/ORB_SLAM2_Android_0226/app/src/main/cpp/Thirdparty/clapack/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_4b13a/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_4b13a.dir/build.make CMakeFiles/cmTC_4b13a.dir/build]
+  ignore line: [make[1]: 正在进入目录 `/home/pico/ORB_SLAM2_Android_0226/app/src/main/cpp/Thirdparty/clapack/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_4b13a.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc --sysroot=/home/pico/Android/Sdk/ndk-bundle/sysroot   -isystem /home/pico/Android/Sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wno-error=format-security   -fPIE   -o CMakeFiles/cmTC_4b13a.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.11/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_4b13a]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b13a.dir/link.txt --verbose=1]
+  ignore line: [/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc --sysroot=/home/pico/Android/Sdk/ndk-bundle/sysroot -isystem /home/pico/Android/Sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wno-error=format-security    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot /home/pico/Android/Sdk/ndk-bundle/platforms/android-24/arch-arm64 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fPIE  -v CMakeFiles/cmTC_4b13a.dir/CMakeCCompilerABI.c.o  -o cmTC_4b13a ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/lto-wrapper]
+  ignore line: [Target: aarch64-linux-android]
+  ignore line: [Configured with: /usr/local/google/buildbot/src/android/gcc/toolchain/build/../gcc/gcc-4.9/configure --prefix=/tmp/ec4cb553ef61611c1d388a938c56382a --target=aarch64-linux-android --host=x86_64-linux-gnu --build=x86_64-linux-gnu --with-gnu-as --with-gnu-ld --enable-languages=c,c++ --with-gmp=/buildbot/tmp/build/toolchain/temp-install --with-mpfr=/buildbot/tmp/build/toolchain/temp-install --with-mpc=/buildbot/tmp/build/toolchain/temp-install --with-cloog=/buildbot/tmp/build/toolchain/temp-install --with-isl=/buildbot/tmp/build/toolchain/temp-install --with-ppl=/buildbot/tmp/build/toolchain/temp-install --disable-ppl-version-check --disable-cloog-version-check --disable-isl-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --disable-libssp --enable-threads --disable-nls --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --disable-libitm --enable-bionic-libs --enable-libatomic-ifuncs=no --enable-initfini-array --disable-nls --prefix=/tmp/ec4cb553ef61611c1d388a938c56382a --with-sysroot=/tmp/ec4cb553ef61611c1d388a938c56382a/sysroot --with-binutils-version=2.27 --with-mpfr-version=3.1.1 --with-mpc-version=1.0.1 --with-gmp-version=5.0.5 --with-gcc-version=4.9 --with-gdb-version=none --with-gxx-include-dir=/tmp/ec4cb553ef61611c1d388a938c56382a/include/c++/4.9.x --with-bugurl=http://source.android.com/source/report-bugs.html --enable-languages=c,c++ --disable-bootstrap --enable-plugins --enable-libgomp --enable-gnu-indirect-function --disable-libsanitizer --enable-gold --enable-ld=default --enable-threads --enable-eh-frame-hdr-for-static --enable-fix-cortex-a53-835769 --enable-graphite=yes --with-isl-version=0.11.1 --with-cloog-version=0.18.0 --program-transform-name='s&^&aarch64-linux-android-&' --enable-gold]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.x 20150123 (prerelease) (GCC) ]
+  ignore line: [COMPILER_PATH=/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/:/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/:/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/]
+  ignore line: [LIBRARY_PATH=/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/:/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/:/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64/:/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/:/home/pico/Android/Sdk/ndk-bundle/platforms/android-24/arch-arm64/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-isystem' '/home/pico/Android/Sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android' '-D' '__ANDROID_API__=24' '-g' '-D' 'ANDROID' '-ffunction-sections' '-funwind-tables' '-fstack-protector-strong' '-Wno-error=format-security' '-pie' '-fPIE' '-v' '-o' 'cmTC_4b13a' '-mlittle-endian' '-mabi=lp64']
+  link line: [ /home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/collect2 -plugin /home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/liblto_plugin.so -plugin-opt=/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMUs4rn.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-ldl -plugin-opt=-pass-through=-lgcc --sysroot=/home/pico/Android/Sdk/ndk-bundle/platforms/android-24/arch-arm64 --eh-frame-hdr -dynamic-linker /system/bin/linker64 -X -EL -maarch64linux --fix-cortex-a53-835769 --fix-cortex-a53-843419 -z noexecstack -z relro -z now -pie -o cmTC_4b13a /home/pico/Android/Sdk/ndk-bundle/platforms/android-24/arch-arm64/usr/lib/crtbegin_dynamic.o -L/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x -L/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc -L/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/home/pico/Android/Sdk/ndk-bundle/platforms/android-24/arch-arm64/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_4b13a.dir/CMakeCCompilerABI.c.o -lgcc -lc -ldl -lgcc /home/pico/Android/Sdk/ndk-bundle/platforms/android-24/arch-arm64/usr/lib/crtend_android.o]
+    arg [/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../libexec/gcc/aarch64-linux-android/4.9.x/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccMUs4rn.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-ldl] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/home/pico/Android/Sdk/ndk-bundle/platforms/android-24/arch-arm64] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker64] ==> ignore
+    arg [-X] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-maarch64linux] ==> ignore
+    arg [--fix-cortex-a53-835769] ==> ignore
+    arg [--fix-cortex-a53-843419] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_4b13a] ==> ignore
+    arg [/home/pico/Android/Sdk/ndk-bundle/platforms/android-24/arch-arm64/usr/lib/crtbegin_dynamic.o] ==> ignore
+    arg [-L/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x] ==> dir [/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x]
+    arg [-L/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc] ==> dir [/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc]
+    arg [-L/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64] ==> dir [/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64]
+    arg [-L/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib] ==> dir [/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib]
+    arg [-L/home/pico/Android/Sdk/ndk-bundle/platforms/android-24/arch-arm64/usr/lib] ==> dir [/home/pico/Android/Sdk/ndk-bundle/platforms/android-24/arch-arm64/usr/lib]
+    arg [--exclude-libs] ==> ignore
+    arg [libgcc.a] ==> ignore
+    arg [--exclude-libs] ==> ignore
+    arg [libatomic.a] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [-znocopyreloc] ==> ignore
+    arg [CMakeFiles/cmTC_4b13a.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-ldl] ==> lib [dl]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/pico/Android/Sdk/ndk-bundle/platforms/android-24/arch-arm64/usr/lib/crtend_android.o] ==> ignore
+  collapse library dir [/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x] ==> [/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
+  collapse library dir [/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc] ==> [/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc]
+  collapse library dir [/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64] ==> [/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/aarch64-linux-android/lib64]
+  collapse library dir [/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib] ==> [/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/aarch64-linux-android/lib]
+  collapse library dir [/home/pico/Android/Sdk/ndk-bundle/platforms/android-24/arch-arm64/usr/lib] ==> [/home/pico/Android/Sdk/ndk-bundle/platforms/android-24/arch-arm64/usr/lib]
+  implicit libs: [gcc;c;dl;gcc]
+  implicit dirs: [/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc/aarch64-linux-android/4.9.x;/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/lib/gcc;/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/aarch64-linux-android/lib64;/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/aarch64-linux-android/lib;/home/pico/Android/Sdk/ndk-bundle/platforms/android-24/arch-arm64/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/pico/ORB_SLAM2_Android_0226/app/src/main/cpp/Thirdparty/clapack/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5266e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5266e.dir/build.make CMakeFiles/cmTC_5266e.dir/build
+make[1]: 正在进入目录 `/home/pico/ORB_SLAM2_Android_0226/app/src/main/cpp/Thirdparty/clapack/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5266e.dir/feature_tests.c.o
+/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc --sysroot=/home/pico/Android/Sdk/ndk-bundle/sysroot   -isystem /home/pico/Android/Sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wno-error=format-security   -fPIE   -std=c11 -o CMakeFiles/cmTC_5266e.dir/feature_tests.c.o   -c /home/pico/ORB_SLAM2_Android_0226/app/src/main/cpp/Thirdparty/clapack/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_5266e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5266e.dir/link.txt --verbose=1
+/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc --sysroot=/home/pico/Android/Sdk/ndk-bundle/sysroot -isystem /home/pico/Android/Sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wno-error=format-security    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot /home/pico/Android/Sdk/ndk-bundle/platforms/android-24/arch-arm64 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fPIE   CMakeFiles/cmTC_5266e.dir/feature_tests.c.o  -o cmTC_5266e -latomic -lm 
+make[1]:正在离开目录 `/home/pico/ORB_SLAM2_Android_0226/app/src/main/cpp/Thirdparty/clapack/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/pico/ORB_SLAM2_Android_0226/app/src/main/cpp/Thirdparty/clapack/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5e7ec/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5e7ec.dir/build.make CMakeFiles/cmTC_5e7ec.dir/build
+make[1]: 正在进入目录 `/home/pico/ORB_SLAM2_Android_0226/app/src/main/cpp/Thirdparty/clapack/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5e7ec.dir/feature_tests.c.o
+/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc --sysroot=/home/pico/Android/Sdk/ndk-bundle/sysroot   -isystem /home/pico/Android/Sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wno-error=format-security   -fPIE   -std=c99 -o CMakeFiles/cmTC_5e7ec.dir/feature_tests.c.o   -c /home/pico/ORB_SLAM2_Android_0226/app/src/main/cpp/Thirdparty/clapack/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_5e7ec
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e7ec.dir/link.txt --verbose=1
+/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc --sysroot=/home/pico/Android/Sdk/ndk-bundle/sysroot -isystem /home/pico/Android/Sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wno-error=format-security    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot /home/pico/Android/Sdk/ndk-bundle/platforms/android-24/arch-arm64 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fPIE   CMakeFiles/cmTC_5e7ec.dir/feature_tests.c.o  -o cmTC_5e7ec -latomic -lm 
+make[1]:正在离开目录 `/home/pico/ORB_SLAM2_Android_0226/app/src/main/cpp/Thirdparty/clapack/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/pico/ORB_SLAM2_Android_0226/app/src/main/cpp/Thirdparty/clapack/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b39bf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b39bf.dir/build.make CMakeFiles/cmTC_b39bf.dir/build
+make[1]: 正在进入目录 `/home/pico/ORB_SLAM2_Android_0226/app/src/main/cpp/Thirdparty/clapack/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b39bf.dir/feature_tests.c.o
+/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc --sysroot=/home/pico/Android/Sdk/ndk-bundle/sysroot   -isystem /home/pico/Android/Sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wno-error=format-security   -fPIE   -std=c90 -o CMakeFiles/cmTC_b39bf.dir/feature_tests.c.o   -c /home/pico/ORB_SLAM2_Android_0226/app/src/main/cpp/Thirdparty/clapack/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_b39bf
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b39bf.dir/link.txt --verbose=1
+/home/pico/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc --sysroot=/home/pico/Android/Sdk/ndk-bundle/sysroot -isystem /home/pico/Android/Sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=24 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wno-error=format-security    -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a --sysroot /home/pico/Android/Sdk/ndk-bundle/platforms/android-24/arch-arm64 -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections -Wl,-z,nocopyreloc -pie -fPIE   CMakeFiles/cmTC_b39bf.dir/feature_tests.c.o  -o cmTC_b39bf -latomic -lm 
+make[1]:正在离开目录 `/home/pico/ORB_SLAM2_Android_0226/app/src/main/cpp/Thirdparty/clapack/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
